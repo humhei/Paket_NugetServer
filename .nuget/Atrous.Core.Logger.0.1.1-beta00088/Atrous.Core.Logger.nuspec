@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Atrous.Core.Logger</id>
+    <version>0.1.1-beta00088</version>
+    <authors>Atrous.Core.Logger</authors>
+    <owners>Atrous.Core.Logger</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="BlackFox.ColoredPrintf" version="1.0.3" exclude="Build,Analyzers" />
+        <dependency id="Deedle" version="2.0.0-beta01" exclude="Build,Analyzers" />
+        <dependency id="FSharp.Core" version="4.5.4" exclude="Build,Analyzers" />
+        <dependency id="Fake.Core.Trace" version="5.11.1" exclude="Build,Analyzers" />
+        <dependency id="SourceLink.Create.CommandLine" version="2.8.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
